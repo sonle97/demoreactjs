@@ -2,11 +2,6 @@
     "name": "demoreact",
     "version": "0.1.0",
     "private": true,
-    "engines": {
-        "npm": "6.14.9",
-        "node": "14.15.2"
-    },
-    "homepage": "http://localhost:8080/DemoReact",
     "dependencies": {
         "@reduxjs/toolkit": "^1.5.0",
         "@testing-library/jest-dom": "^5.11.6",

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: `https://65e96ae54bb72f0a9c517303.mockapi.io`,
+  baseURL: process.env.PORT_API,
   timeout: 5000, // default is `0` (no timeout)
   responseType: "json",
 });
